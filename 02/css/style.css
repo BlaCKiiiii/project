@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    font-style: normal;
+}
+h3
+{
+   font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.top{
+    background:#0B0140;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 12px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.top ul{
+    display: flex;
+    gap: 30px;
+}
+header{
+    padding: 20px 0px;
+}
+header img{
+    width:100%;
+}
+.ac{
+    align-content: center;
+}
+nav{
+    background:#0B0140;
+    line-height: 50px;  
+}
+nav a{
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap:60px;
+}
+.menu{
+    display: flex;
+    color: white;
+    gap: 50px;
+}
+.banner{
+    padding: 30px 0px;
+}
+.banner-left{
+    position: relative;
+}
+.banner-left-content{
+    position: absolute;
+    background: #0000008e;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    width: 100%;
+}
+.banner-left-content1{
+    position: absolute;
+    top:0;
+    right:0;
+    color: white;
+    padding: 10px;
+    background: #0000008e;
+
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.content{
+    background: #F0F0F0;
+    margin-bottom: 10px;
+}
+.p{
+    padding: 10px 0px;
+}
+
+img{
+    display:block;
+}
+.date{
+    color: grey;
+    padding:10px 0px;
+    font-size: 12px;
+}
+.container h2{
+    padding: 20px 0px;
+}
+.banner-right{
+    height: 440px;
+    overflow:scroll;
+}
+
+.image img{
+    width: 100%;
+}
+.end{
+    background: #0B0140;
+    color: white;
+    text-align: center;
+}
+.end p{
+    padding: 10px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.boxf{
+    width: 23%;
+}
+.morenow img{
+    width:100%;
+}
+.boxf h4{
+    padding: 10px 0px;
+}
+.fbox img{
+    width:100%;
+}
+footer{
+    background: url(../images/end.jpg);
+    padding: 15px 0px ;   
+}
+header{
+    background: url(../images/unsplash_c5QdMcuFlgY.jpg);
+}
+.fbox h4{
+    padding-bottom: 20px;
+}
+.fbox li{
+    line-height: 30px;
+}
+.copyright{
+    background: #0B0140;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+
